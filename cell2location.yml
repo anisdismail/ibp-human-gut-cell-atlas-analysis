@@ -1,0 +1,16 @@
+name: cell2location
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python==3.9
+  - requests
+  - pytorch==1.11
+  - ipykernel
+  - jupyter
+  - pip:
+    - cell2location
+    - leidenalg
+    - matplotlib
+    - scanpy
+    - numpy
